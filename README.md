@@ -85,7 +85,7 @@ Add the plugin and the corresponding rule to the stylelint configuration file, a
     "stylelint-selector-no-top-level-tag"
   ],
   "rules": {
-    "plugin/selector-tag-no-without-class": []
+    "stylelint-selector-no-top-level-tag": []
   }
 }
 ```

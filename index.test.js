@@ -77,6 +77,20 @@ testRule({
       line: 1,
       column: 1,
     },
+    {
+      code: `
+      div.foo {
+        color: green;
+      }
+      
+      div {
+        color: red;
+      }
+      `,
+      message: messages.unexpected("div"),
+      line: 6,
+      column: 7,
+    },
   ],
 });
 
