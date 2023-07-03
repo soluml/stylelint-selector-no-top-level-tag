@@ -1,6 +1,6 @@
 {
   "name": "stylelint-selector-no-top-level-tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Styelint plugin to disallow tags as a top-level selector",
   "keywords": [
     "stylelint-plugin",
