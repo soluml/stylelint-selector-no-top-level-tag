@@ -9,6 +9,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "stylelint": "stylelint --config .stylelintrc \"*.css\"",
     "test": "jest"
   },
   "author": {
