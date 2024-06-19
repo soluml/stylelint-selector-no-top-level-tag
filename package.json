@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "stylelint": "stylelint --config .stylelintrc \"*.css\"",
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": {
     "name": "soluml",
@@ -26,11 +26,11 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "jest": "^29.5.0",
-    "jest-preset-stylelint": "^6.1.0",
-    "stylelint": "^15.9.0"
+    "jest": "^29.7.0",
+    "jest-preset-stylelint": "^7.0.0",
+    "stylelint": "^16.6.1"
   },
   "peerDependencies": {
-    "stylelint": ">= 9.x < 16"
+    "stylelint": ">= 9.x < 17"
   }
 }

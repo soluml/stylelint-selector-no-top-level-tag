@@ -1,9 +1,9 @@
 const _ = require("lodash");
 const stylelint = require("stylelint");
-const isStandardSyntaxRule = require("stylelint/lib/utils/isStandardSyntaxRule");
-const isStandardSyntaxSelector = require("stylelint/lib/utils/isStandardSyntaxSelector");
-const parseSelector = require("stylelint/lib/utils/parseSelector");
-const matchesStringOrRegExp = require("stylelint/lib/utils/matchesStringOrRegExp");
+const isStandardSyntaxRule = require("stylelint/lib/utils/isStandardSyntaxRule.cjs");
+const isStandardSyntaxSelector = require("stylelint/lib/utils/isStandardSyntaxSelector.cjs");
+const parseSelector = require("stylelint/lib/utils/parseSelector.cjs");
+const matchesStringOrRegExp = require("stylelint/lib/utils/matchesStringOrRegExp.cjs");
 
 const ruleName = "plugin/selector-no-top-level-tag";
 const messages = stylelint.utils.ruleMessages(ruleName, {
